@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Club Recife</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Sport Club Recife</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Seja sócio!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Jogos e ingressos!</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        
+        <section class="mb-4">
+            <h2>Início</h2>
+            <p>Conheça a história do gigante do Nordeste!</p>
+        </section>
+        
+        <section class="mb-4">
+            <h2>Seja sócio!</h2>
+            <p>Conheça nossos planos de sócio!</p>
+        </section>
+        
+        <section class="mb-4">
+            <h2>Jogos e ingressos!</h2>
+            <p>Venha para ilha, garanta agora seus ingressos!</p>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano"></span> Sport Club do Recife. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
